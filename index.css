@@ -1,0 +1,64 @@
+body {
+    text-align: center;
+    padding: 16px;
+    color: white;
+}
+
+section {
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 8px;
+    background: -moz-linear-gradient(65deg, rgb(159, 181, 255), rgb(73, 255, 225)); 
+    background: -webkit-linear-gradient(65deg, rgb(129, 148, 255), rgb(29, 255, 255)); 
+    background: linear-gradient(25deg, rgb(0, 17, 255), rgb(20, 248, 248));
+}
+
+footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+section input[type = "id"],section input[type = "password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #69d5ff;
+    padding: 15px 10px;
+    width: 200px;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+    text-align: center;
+    outline-color: #000;
+    background-color: rgb(204, 227, 238);
+}
+
+section input[type = "id"]:focus,section input[type = "password"]:focus {
+    width: 280px;
+    background-color: #f0f8ff;
+}
+
+section input[type = "button"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #f0f8ff;
+    padding: 15px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 25px;
+    transition: 0.25s;
+    text-align: center;
+    cursor: pointer;
+}
+
+section input[type = "button"]:hover {
+    background-color: #46ffe685;
+    border: 2px solid #ffffff;
+}
